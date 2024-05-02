@@ -32,7 +32,7 @@ import {
   WRAPPED_NATIVE_CURRENCY,
   USDC_BASE,
   USDC_BASE_GOERLI,
-} from '@uniswap/smart-order-router'
+} from 'flaex-smart-order-router'
 import { ethers } from 'ethers'
 import NodeCache from 'node-cache'
 

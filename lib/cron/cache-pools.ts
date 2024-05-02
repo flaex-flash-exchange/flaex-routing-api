@@ -1,5 +1,5 @@
 import { Protocol } from '@uniswap/router-sdk'
-import { setGlobalLogger, setGlobalMetric } from '@uniswap/smart-order-router'
+import { setGlobalLogger, setGlobalMetric } from 'flaex-smart-order-router'
 import { EventBridgeEvent, ScheduledHandler } from 'aws-lambda'
 import { S3 } from 'aws-sdk'
 import { ChainId } from '@uniswap/sdk-core'

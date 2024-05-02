@@ -321,6 +321,7 @@ const jsonRpcProviders = {
   WEB3_RPC_81457: process.env.WEB3_RPC_81457!,
   WEB3_RPC_42161: process.env.WEB3_RPC_42161!,
   WEB3_RPC_421613: process.env.WEB3_RPC_421613!,
+  WEB3_RPC_421614: process.env.WEB3_RPC_421614!,
   WEB3_RPC_10: process.env.WEB3_RPC_10!,
   WEB3_RPC_137: process.env.WEB3_RPC_137!,
   WEB3_RPC_42220: process.env.WEB3_RPC_42220!,

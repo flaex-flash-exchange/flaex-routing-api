@@ -7,7 +7,7 @@ import {
   MetricLoggerUnit,
   V2SubgraphPool,
   V3SubgraphPool,
-} from '@uniswap/smart-order-router'
+} from 'flaex-smart-order-router'
 import { S3 } from 'aws-sdk'
 import { ChainId } from '@uniswap/sdk-core'
 import NodeCache from 'node-cache'

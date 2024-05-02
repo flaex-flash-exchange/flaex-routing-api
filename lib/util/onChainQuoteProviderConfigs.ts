@@ -9,10 +9,10 @@ import {
   DEFAULT_GAS_ERROR_FAILURE_OVERRIDES,
   DEFAULT_RETRY_OPTIONS,
   DEFAULT_SUCCESS_RATE_FAILURE_OVERRIDES,
-} from '@uniswap/smart-order-router/build/main/util/onchainQuoteProviderConfigs'
+} from 'flaex-smart-order-router/build/main/util/onchainQuoteProviderConfigs'
 import { CHAIN_TO_ADDRESSES_MAP, ChainId } from '@uniswap/sdk-core'
 import AsyncRetry from 'async-retry'
-import { AddressMap, BatchParams, BlockNumberConfig, FailureOverrides } from '@uniswap/smart-order-router'
+import { AddressMap, BatchParams, BlockNumberConfig, FailureOverrides } from 'flaex-smart-order-router'
 
 export const RETRY_OPTIONS: { [chainId: number]: AsyncRetry.Options | undefined } = {
   ...constructSameRetryOptionsMap(DEFAULT_RETRY_OPTIONS),

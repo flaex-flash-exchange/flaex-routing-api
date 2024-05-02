@@ -37,7 +37,7 @@ import {
   IOnChainQuoteProvider,
   MIXED_ROUTE_QUOTER_V1_ADDRESSES,
   NEW_QUOTER_V2_ADDRESSES,
-} from '@uniswap/smart-order-router'
+} from 'flaex-smart-order-router'
 import { TokenList } from '@uniswap/token-lists'
 import { default as bunyan, default as Logger } from 'bunyan'
 import _ from 'lodash'
@@ -53,8 +53,8 @@ import { DefaultEVMClient } from './evm/EVMClient'
 import { InstrumentedEVMProvider } from './evm/provider/InstrumentedEVMProvider'
 import { deriveProviderName } from './evm/provider/ProviderName'
 import { V2DynamoCache } from './pools/pool-caching/v2/v2-dynamo-cache'
-import { OnChainTokenFeeFetcher } from '@uniswap/smart-order-router/build/main/providers/token-fee-fetcher'
-import { PortionProvider } from '@uniswap/smart-order-router/build/main/providers/portion-provider'
+import { OnChainTokenFeeFetcher } from 'flaex-smart-order-router/build/main/providers/token-fee-fetcher'
+import { PortionProvider } from 'flaex-smart-order-router/build/main/providers/portion-provider'
 import { GlobalRpcProviders } from '../rpc/GlobalRpcProviders'
 import { StaticJsonRpcProvider } from '@ethersproject/providers'
 import { TrafficSwitchOnChainQuoteProvider } from './quote/provider-migration/v3/traffic-switch-on-chain-quote-provider'
@@ -72,6 +72,7 @@ export const SUPPORTED_CHAINS: ChainId[] = [
   ChainId.MAINNET,
   ChainId.OPTIMISM,
   ChainId.ARBITRUM_ONE,
+  ChainId.ARBITRUM_SEPOLIA,
   ChainId.POLYGON,
   ChainId.SEPOLIA,
   ChainId.CELO,

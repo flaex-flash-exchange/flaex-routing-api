@@ -5,7 +5,7 @@ import {
   LowerCaseStringArray,
   MapWithLowerCaseKey,
   ProtocolPoolSelection,
-} from '@uniswap/smart-order-router'
+} from 'flaex-smart-order-router'
 import { FeeOptions } from '@uniswap/v3-sdk'
 import { FlatFeeOptions } from '@uniswap/universal-router-sdk'
 

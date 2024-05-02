@@ -25,7 +25,11 @@ export function chainIdToNetworkName(networkId: ChainId): string {
 
 export function generateProviderUrl(key: string, value: string): string {
   const tokens = value.split(',')
+
   switch (key) {
+    case 'WEB3_RPC_421614': {
+      return `https://arbitrum-sepolia.blockpi.network/v1/rpc/f3144180d974705270447c0712fc667a4ceee981`
+    }
     // Infura
     case 'INFURA_43114': {
       return `https://avalanche-mainnet.infura.io/v3/${tokens[0]}`

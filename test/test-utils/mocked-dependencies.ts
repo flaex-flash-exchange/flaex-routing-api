@@ -4,7 +4,7 @@ import {
   USDC_MAINNET,
   V3PoolProvider,
   WRAPPED_NATIVE_CURRENCY,
-} from '@uniswap/smart-order-router'
+} from 'flaex-smart-order-router'
 import { Pool } from '@uniswap/v3-sdk'
 import {
   buildMockV3PoolAccessor,
@@ -15,9 +15,9 @@ import {
   WETH9_USDT_LOW,
 } from './mocked-data'
 import sinon from 'sinon'
-import { V3Route } from '@uniswap/smart-order-router/build/main/routers'
+import { V3Route } from 'flaex-smart-order-router/build/main/routers'
 import { ChainId, CurrencyAmount } from '@uniswap/sdk-core'
-import { AmountQuote } from '@uniswap/smart-order-router/build/main/providers/on-chain-quote-provider'
+import { AmountQuote } from 'flaex-smart-order-router/build/main/providers/on-chain-quote-provider'
 import { BigNumber } from 'ethers'
 
 export function getMockedV3PoolProvider(
